@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="pane" fx:id="pane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <children>
+            <HBox prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label text="Сторона квадрата" />
+                  <TextField fx:id="textA1" />
+                  <Button fx:id="but1" mnemonicParsing="false" text="Расчитать площадь квадрата" />
+               </children>
+            </HBox>
+            <HBox prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label text="Радиус" />
+                  <TextField fx:id="textR2" />
+                  <Button fx:id="but2" mnemonicParsing="false" text="Расчитать площадь квадрата" />
+               </children>
+            </HBox>
+            <VBox spacing="10.0">
+               <children>
+                  <HBox prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label text="1 сторона" />
+                        <TextField fx:id="textA3" />
+                        <Label text="2 сторона" />
+                        <TextField fx:id="textB3" />
+                        <Label text="3 сторона" />
+                        <TextField fx:id="textC3" />
+                     </children>
+                  </HBox>
+                  <HBox prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label text="4 сторона" />
+                        <TextField fx:id="textD3" />
+                        <Button fx:id="but3" mnemonicParsing="false" text="Расчитать периметр трапеции" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label text="Радиус" />
+                  <TextField fx:id="textR4" />
+                  <Label text="Выстора" />
+                  <TextField fx:id="textH4" />
+                  <Button fx:id="but4" mnemonicParsing="false" text="Расчитать объём цилиндра" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
